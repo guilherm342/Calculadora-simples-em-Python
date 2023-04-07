@@ -5,9 +5,9 @@ numero2 = 0
 resultado = 0
 operacao = ''
 
-numero1 = int(input("digite o primeiro numero: "))
+numero1 = float(input("digite o primeiro numero: "))
 operacao = input("digite a operação: ")
-numero2 = int(input("digite o segundo numero: "))
+numero2 = float(input("digite o segundo numero: "))
 
 if operacao == '+':
     resultado = numero1 + numero2
